@@ -1,0 +1,7 @@
+.photo_grid__card {
+    min-height: 213px;
+    max-width: 100%;
+    /*width: 100%;*/
+    margin: 0;
+    object-fit: cover;
+}
