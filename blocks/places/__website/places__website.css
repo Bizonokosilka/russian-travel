@@ -2,5 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 0 48px 40px;
+}
+
+@media screen and (max-width: 630px) {
+    .places__website {
+        visibility: hidden;
+        display: none;
+    }
 }

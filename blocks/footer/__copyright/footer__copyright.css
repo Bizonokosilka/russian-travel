@@ -3,13 +3,13 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
-/* identical to box height, or 114% */
+    line-height: 114%;
     text-align: right;
 }
 
 @media screen and (max-width: 750px) {
     .footer__copyright {
         text-align: left;
+        padding: 16px 0 0;
     }
 }

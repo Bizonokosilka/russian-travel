@@ -13,7 +13,7 @@
     padding: 0 48px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 800px) {
         .lead {
             padding: 0;
     }

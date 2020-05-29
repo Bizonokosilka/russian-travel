@@ -18,13 +18,13 @@ padding: 0 0 0 148px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .intro {
-        padding: 0 24px 0 24px;
+        padding: 0 24px 0;
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
     .intro {
         padding: 0 16px 0 16px;
     }

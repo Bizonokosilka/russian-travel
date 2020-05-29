@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .cover {
         padding: 88px 0 0;
         height: 480px;
@@ -29,6 +29,6 @@
 @media screen and (max-width: 520px) {
     .cover {
         padding: 64px 0 0;
-        height: 320px;
+        height: 200px;
     }
 } 

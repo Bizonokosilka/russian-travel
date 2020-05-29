@@ -2,30 +2,21 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
-/* or 106% */
+    line-height: 106%;
     margin: 0;
-    padding-bottom: 48px;
-    max-width: 460px;
+    /* max-width: 460px; */
 }
 
-@media screen and (max-width: 900px) {
-    .places__title {
-        font-size: 54px;
-        line-height: 58px;
-    }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .places__title {
         font-size: 42px;
-        line-height: 46px;
+        max-width: 330px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
     .places__title {
         font-size: 32px;
-        line-height: 35px;
+        padding: 0 16px 0;
     }
 }
