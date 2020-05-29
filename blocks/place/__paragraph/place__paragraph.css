@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width: 800px) {
-    .places__paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
 }
 
-.places__paragraph:last-of-type {
+.place__paragraph:last-of-type {
     padding: 0;
 }
 
