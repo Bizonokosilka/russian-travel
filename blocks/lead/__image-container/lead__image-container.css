@@ -13,3 +13,9 @@
     }
 }
 
+@media screen and (max-width: 630px) {
+    .lead__image-container {
+        padding-top: 40px;
+    }
+}
+
