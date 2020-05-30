@@ -8,7 +8,8 @@ color: white;
 }
 
 .header__lang-link:hover {
-    opacity: 0.8;
+    opacity: 0.5;
+    transition: opacity .5s ease-in-out;
 }
 
 @media screen and (max-width: 350px) {

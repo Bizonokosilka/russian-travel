@@ -1,6 +1,6 @@
-@import url(./__card/photo_grid__card.css);
+@import url(./__card/photo-grid__card.css);
 
-.photo_grid {
+.photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     /*grid-template-rows: repeat(3, 1fr);*/
@@ -11,20 +11,20 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .photo_grid {
+    .photo-grid {
         grid-gap: 14px;    
     }
 }
 
 @media screen and (max-width: 800px) {
-    .photo_grid {
+    .photo-grid {
         padding: 88px 24px 0;  
         grid-gap: 16px;   
     }
 }
 
 @media screen and (max-width: 400px) {
-    .photo_grid {
+    .photo-grid {
         grid-gap: 12px; 
         padding: 64px 16px 0;    
     }

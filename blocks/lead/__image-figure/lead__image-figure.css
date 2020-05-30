@@ -1,20 +1,18 @@
-.lead__image-container {
+.lead__image-figure {
     max-width: 100%;
-    min-height: 200px;
     min-width: 320px;
     margin: 0 auto;
     padding-top: 64px;
-    /*object-fit: contain;*/
 }
 
 @media screen and (max-width: 1100px) {
-    .lead__image-container {
+    .lead__image-figure {
         padding-top: 56px;
     }
 }
 
 @media screen and (max-width: 630px) {
-    .lead__image-container {
+    .lead__image-figure {
         padding-top: 40px;
     }
 }
