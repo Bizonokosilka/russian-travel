@@ -4,7 +4,8 @@
 @import url(./__lang-link/_chosen/header__lang-link_chosen.css);
 
 .header {
-    max-width: 100%;
+    max-width: 1184px;;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 26px 55px 0 41px;
